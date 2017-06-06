@@ -8,35 +8,33 @@ h3,
 p {
 	font-family: Helvetica, Arial, sans-serif;
 	color: white;
-	font-size: 1.35em;
+	font-size: 1.5em;
 }
 
 
 img{
 	max-width: 100%;
+	padding: 0.5em;
+	height: 200px;
 }
 
 
 .container {
-	margin-top: 160px;
+	margin-top: 5em;
 	text-align: center;
 	background-color: black;
 	max-width: 940px;
 	width: 100%;
+
 }
 
-button{
-	max-width: 100%;
-}
-
-hr {
-	width: 600px;
-	border-bottom: 1px solid black;
+.btn{
+	padding: 1em;
 }
 
 .quote-box {
-	border: 1px dashed black;
 	border-radius: 15px;
-	padding: 10px;
+	/*padding: 10px;*/
 	margin-bottom: 15px;
+	width: 100%;
 }

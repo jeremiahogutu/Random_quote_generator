@@ -12,31 +12,43 @@
 	<!-- my css file -->
 	<link rel="stylesheet" type="text/css" href="css/randomstyle.css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/normalize.css"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
 	 <div class="container"> <!-- for resposive -->
 		<div class="row">
 			<div class="col-md-12">
-				<h1><img src="img/header.png"></h1>
+				<img src="img/header.png">
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2"><!-- I use offset to center the div by two columns on each side-->
-				<div class="quote-box">
-					<p id="quote"></p>
-					<p id="author"></p>
-				</div>
-				<ul class="list-inline"> <!--no bullets for list from left to right-->
+			<div class="quote-box col-md-12">
+				<p id="quote"></p>
+				<p id="author"></p>
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-4">
+			<ul class="list-inline "> <!--no bullets for list from left to right-->
 				<!-- fa-fw set icons to fix width -->
-					<li><a href="#" class="btn btn-default btn-responsive get-quote"><i class="fa fa-quote-left fa-fw"></i>Get Quote</a></li>
+				<li><a href="#" class="btn btn-default btn-responsive get-quote "><i class="fa fa-quote-left fa-fw"></i>Get Quote</a></li>
+			</ul>
+		</div>
+			<div class="col-md-4">
+				<ul class="list-inline">
 					<li><a href="#" class="btn btn-default btn-responsive share-quote"><i class="fa fa-twitter fa-fw"></i>Share Quote</a></li>
 				</ul>
+			</div>
+			<div class="col-md-4">
 				<ul class="list-inline">
 					<li><a href="https://jeremiahogutu.github.io/portfolio-Website/" class="btn btn-default btn-responsive">Back to portfolio</a></li>
 				</ul>
-			</div> 
+			</div>
+		</div>
+
+
 		</div>
 	</div>
 
